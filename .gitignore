@@ -1,0 +1,60 @@
+# Java / Spring Boot
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+
+# Maven
+.mvn/
+!**/src/main/**/mvnw*
+!**/src/main/**/mvnw.cmd
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+
+# Node.js / ReactJS
+node_modules/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs & Temp Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+server-debug.log
+.DS_Store
+Thumbs.db
+
+# AWS & Deployment
+.aws/
+*.pem
+*.key
